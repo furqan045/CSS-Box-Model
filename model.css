@@ -1,0 +1,46 @@
+.frame{
+    border: 20px solid black;
+    width: 600px ;
+    margin: 20px auto; 
+    padding: 2px auto;
+}
+.canvas{
+    background-color: brown;
+    width: 500px;
+    height: 600px;
+    margin: 20px auto; 
+    /* padding: 1px; */
+    overflow: hidden;
+}
+.one{
+    background-color: yellow;
+    width: 400px;
+    height: 125px;
+    margin: 20px auto;
+    box-shadow: 0 0 3px yellow;
+    border-radius: 9px;
+    transform:rotate(0.8deg);
+}
+.two{
+    background-color: blue;
+    width: 450px;
+    height: 125px;
+    margin: 0 auto 20px;
+    box-shadow: 0 0 3px blue;
+    border-radius: 8px 10px;
+    transform: rotate(0.4deg);
+}
+.three{
+    width: 91%;
+    height: 28%;
+    background-color: aliceblue;
+    margin: auto;
+    filter: blur(2px);
+    box-shadow: 0 0 3px 5px aliceblue;
+    border-radius: 30px 25px 60px 12px;
+    transform: rotate(0.4deg);
+}
+.one, .two{
+    filter: blur(1px);
+    
+}
